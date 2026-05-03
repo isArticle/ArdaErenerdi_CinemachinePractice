@@ -8,8 +8,8 @@ public class CameraController : MonoBehaviour
     public List<GameObject> virtualCameras;
 
     private float timer = 0f;
-    private int activeCameraIndex = 0; // Şu an açık olan kameranın sırası
-    private int targetTimeIndex = 0;   // Scriptable Object'teki hangi süreyi bekliyoruz?
+    private int activeCameraIndex = 0;
+    private int targetTimeIndex = 0;
 
     void Start()
     {
